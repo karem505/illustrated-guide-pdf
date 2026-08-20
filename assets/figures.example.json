@@ -1,0 +1,27 @@
+{
+  "_doc": "One entry per figure. Use `at` (seconds into --video) OR `src` (an image path relative to this file). Marker x/y are fractions of the REGION, measured before blur/taskbar/trim.",
+  "figures": [
+    {
+      "id": "f01",
+      "at": 420,
+      "region": "share",
+      "_region": "share = meeting recording. Also: full | window | [x,y,w,h] fractions.",
+      "taskbar": true,
+      "blur": [[0.36, 0.085, 0.74, 0.145]],
+      "_blur": "Screen-share pill, names, emails. Fractions [x0,y0,x1,y1] of the region.",
+      "trim": { "top": 0.0, "right": 0.0, "bottom": 0.0, "left": 0.0 },
+      "markers": [
+        { "x": 0.330, "y": 0.091, "dir": "dr" },
+        { "x": 0.428, "y": 0.535, "dir": "ul" },
+        { "x": 0.713, "y": 0.562, "dir": "ur" }
+      ],
+      "_markers": "dir places the badge relative to the target: ul, ur, dl, dr. It auto-flips near an edge."
+    },
+    {
+      "id": "f02",
+      "src": "shots/settings-panel.png",
+      "region": "window",
+      "markers": [{ "x": 0.22, "y": 0.40, "dir": "ur" }]
+    }
+  ]
+}

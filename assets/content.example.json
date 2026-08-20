@@ -1,0 +1,50 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "stepsWord": "steps",
+  "cover": {
+    "brand": "ACME ACADEMY",
+    "title": "How to ship your first<br />campaign in Studio",
+    "subtitle": "A step-by-step guide — with screenshots, and exactly where to click.",
+    "chips": ["MODULE 03", "24 steps · 6 sections"],
+    "note": "Every screenshot here is cut from the session recording, so what you see is what was demonstrated."
+  },
+  "front": [
+    {
+      "type": "callout",
+      "title": "Read this first",
+      "body": "The account must belong to an adult — the terms require it.",
+      "quote": { "text": "“You must be at least 18 years old to create an Account.”", "dir": "ltr" },
+      "paras": ["So the teacher holds the account and does the clicking. The learner directs."]
+    },
+    { "type": "list", "title": "Before you start",
+      "items": ["A desktop browser.", "An account.", "<b>Credits.</b> Every generation costs some — the number is on the button."] },
+    { "type": "toc", "title": "What's in this guide" }
+  ],
+  "sections": [
+    {
+      "n": "1",
+      "title": "Set up",
+      "intro": "Account and plan first.",
+      "steps": [
+        { "fig": "f01", "title": "Open the app and sign in",
+          "body": "Go to <b>example.com</b> and sign in. Answer the welcome question and continue.",
+          "legend": ["The main navigation", "The prompt field", "The generate button"] },
+        { "fig": "f02", "title": "Open settings",
+          "body": "Everything you need is on one panel.",
+          "legend": ["The panel toggle"] }
+      ]
+    }
+  ],
+  "back": [
+    { "type": "cards", "title": "The rules that matter",
+      "cards": [
+        { "title": "The five-slot prompt", "kind": "grid",
+          "items": ["<b>Subject</b> — who or what?", "<b>Action</b> — what is happening?",
+                    "<b>Style</b>", "<b>Light and mood</b>", "<b>Camera</b>", "Describe, do not command."] },
+        { "title": "Before you publish", "kind": "checks",
+          "items": ["Labelled as AI-generated?", "No one's face without permission?", "No artist imitated by name?"] }
+      ] },
+    { "type": "final", "text": "The tool makes the shape — the idea is still yours." }
+  ]
+}

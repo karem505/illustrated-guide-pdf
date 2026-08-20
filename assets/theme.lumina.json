@@ -1,0 +1,23 @@
+{
+  "name": "lumina",
+  "_note": "Navy + champagne, Arabic RTL. Fonts are embedded from local files; if the paths do not exist the build falls back to the CSS `fallback` stack.",
+  "page": { "size": "A4", "margin": { "top": "11mm", "right": "12mm", "bottom": "13mm", "left": "12mm" } },
+  "numerals": "arabic-indic",
+  "colors": {
+    "ink": "#0d1b2a", "text": "#1e2a3a", "accent": "#c7b572", "accentSoft": "#e8d5a7",
+    "rule": "#d8d2c2", "muted": "#6b7280", "paper": "#ffffff",
+    "calloutBg": "#fdfbf5", "coverText": "#f3efe3"
+  },
+  "fonts": {
+    "family": "Thmanyah Sans",
+    "fallback": "'Noto Sans Arabic', system-ui, sans-serif",
+    "files": [
+      { "path": "~/.fonts/thmanyah/thmanyahsans-Regular.otf", "weight": 400 },
+      { "path": "~/.fonts/thmanyah/thmanyahsans-Bold.otf", "weight": 700 },
+      { "path": "~/.fonts/thmanyah/thmanyahsans-Black.otf", "weight": 900 }
+    ]
+  },
+  "figure": { "width": "152mm", "radius": "2mm", "border": "#5a5446" },
+  "cover": { "style": "panel", "padding": "40mm 20mm 24mm", "radius": "2mm", "titleSize": "38pt" },
+  "marker": { "marker_fill": "#e8d5a7", "marker_text": "#0d1b2a", "marker_ring": "#e8d5a7" }
+}

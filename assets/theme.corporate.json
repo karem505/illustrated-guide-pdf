@@ -1,0 +1,15 @@
+{
+  "name": "corporate",
+  "_note": "Neutral LTR starting point. No font files: uses whatever sans the machine has.",
+  "page": { "size": "A4", "margin": { "top": "12mm", "right": "12mm", "bottom": "14mm", "left": "12mm" } },
+  "numerals": "latin",
+  "colors": {
+    "ink": "#12233b", "text": "#243449", "accent": "#2f6fb5", "accentSoft": "#cfe0f2",
+    "rule": "#d9dee5", "muted": "#67748a", "paper": "#ffffff",
+    "calloutBg": "#f5f9fd", "coverText": "#eef4fb"
+  },
+  "fonts": { "family": "Inter", "fallback": "'Helvetica Neue', Arial, system-ui, sans-serif", "files": [] },
+  "figure": { "width": "154mm", "radius": "2mm", "border": "#c3ccd7" },
+  "cover": { "style": "panel", "padding": "42mm 20mm 24mm", "radius": "2mm", "titleSize": "36pt" },
+  "marker": { "marker_fill": "#2f6fb5", "marker_text": "#ffffff", "marker_ring": "#2f6fb5" }
+}

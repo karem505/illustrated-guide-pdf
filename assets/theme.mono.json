@@ -1,0 +1,15 @@
+{
+  "name": "mono",
+  "_note": "Black, white and one accent. Cheapest to print; good default when you do not know the brand.",
+  "page": { "size": "A4", "margin": { "top": "12mm", "right": "13mm", "bottom": "14mm", "left": "13mm" } },
+  "numerals": "latin",
+  "colors": {
+    "ink": "#111111", "text": "#2b2b2b", "accent": "#e0552b", "accentSoft": "#f7d9cd",
+    "rule": "#dcdcdc", "muted": "#6f6f6f", "paper": "#ffffff",
+    "calloutBg": "#fbfbfb", "coverText": "#f6f6f6"
+  },
+  "fonts": { "family": "Inter", "fallback": "Helvetica, Arial, system-ui, sans-serif", "files": [] },
+  "figure": { "width": "156mm", "radius": "1mm", "border": "#cfcfcf" },
+  "cover": { "style": "panel", "padding": "44mm 20mm 24mm", "radius": "0", "titleSize": "38pt" },
+  "marker": { "marker_fill": "#e0552b", "marker_text": "#ffffff", "marker_ring": "#e0552b" }
+}
